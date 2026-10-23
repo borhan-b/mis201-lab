@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
+    <nav class="nav">
         <a href="index.html">Home</a> 
         <a href="about.html">About</a> 
         <a href="courses.html">Courses</a> 
@@ -15,7 +16,7 @@
     </nav>
     <main>
         <h2>Register</h2>
-        <p>In order to contact with me, please register by form below.</p>
+        <p class="p">In order to contact with me, please register by form below.</p>
         <hr>
         <form>
             <label for="fullname">Full Name:</label>
@@ -27,11 +28,7 @@
             <br>
             <br>
             <label for="name">Name:</label>
-            <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name">
+            <input type="text" id="name" name="name" placeholder="Enter your name">
             <br>
             <br>
             <label for="age">Age:</label>
@@ -63,12 +60,12 @@
             <br>
             <label for="department">Department:</label>
             <select id="department" name="department">
-            <option value="mis">Management Information Systems</option>
-            <option value="business">Business Administration</option>
-            <option value="economics">Economics</option>
-            <option value="computer engineering">Computer Engineering</option>
-            <option value="industrial engineering">Industrial Engineering</option>
-            <option value="mathematics">Mathematics</option>
+                <option value="mis">Management Information Systems</option>
+                <option value="business">Business Administration</option>
+                <option value="economics">Economics</option>
+                <option value="computer engineering">Computer Engineering</option>
+                <option value="industrial engineering">Industrial Engineering</option>
+                <option value="mathematics">Mathematics</option>
             </select>
             <hr>
             <label for="message">Message:</label>
@@ -88,7 +85,7 @@
 </body>
 
 <footer>
-    <p>&copy; 2026 My Personal Webpage</p>
+    <p class="p">&copy; 2026 My Personal Webpage</p>
 </footer>
 
 </html>
